@@ -1,6 +1,6 @@
 # THM_Buffer-Overflow-Prep
 
-Each folder numbered from 1 to x contains the scripts from fuzzing to the stage of creating a final POC 
+Each folder numbered from 1 to x contains the scripts from fuzzing to the stage of creating a final **exploit**
 
 Buffer overflow Room can be Found at:--> https://tryhackme.com/room/bufferoverflowprep
 
