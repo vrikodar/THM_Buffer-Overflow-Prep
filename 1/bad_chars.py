@@ -1,3 +1,5 @@
+# Author: z3r0day
+
 import socket
 import sys
 import time
