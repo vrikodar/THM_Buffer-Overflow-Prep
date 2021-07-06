@@ -16,7 +16,7 @@ generic_send_tcp <target-ip> 1337{this port is specific to the oscp.exe} fuzz.sp
   
 # About Fuzz.py Scripts
      
-**The fuzz.py scripts will not Display the output Till you Don't press CTRL + C {yeah I know add a except statement but i find no use in it lol} For this very reason a time dealy of 5 seconds is Added so as soon as you see the application crash in immunity press CTRL + C{in 5 sec delay} to stop the script and this would also give us the bytes at which application crashed**
+**The fuzz.py scripts will not Display the output Till you press CTRL + C {yeah I know add a except statement but i find no use in it lol} For this very reason a time dealy of 5 seconds is Added so as soon as you see the application crash in immunity press CTRL + C{in 5 sec delay} to stop the script and this would also give us the bytes at which application crashed**
      
      
 # OVERFLOW 1
