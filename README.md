@@ -10,7 +10,7 @@ Buffer overflow Room can be Found at:--> https://tryhackme.com/room/bufferoverfl
 
 **command to be used with spike scripts to find payload triggering the crash**
 
-generic_send_tcp <target-ip> 1337{this port is specific to the oscp.exe} fuzz.spk 0 0
+     generic_send_tcp <target-ip> 1337{this port is specific to the oscp.exe} fuzz.spk 0 0
     
  More on spike:--> https://resources.infosecinstitute.com/topic/intro-to-fuzzing/
   
