@@ -1,2 +1,7 @@
 # THM_Buffer-Overflow-Prep
-contains solution scripts for try hack me buffer overflow prep room for oscp
+
+Each folder numbered from 1 to x contains the scripts from fuzzing to the stage of creating a final POC 
+
+
+# OVERFLOW 1
+
