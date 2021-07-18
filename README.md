@@ -62,6 +62,12 @@ Buffer overflow Room can be Found at:--> https://tryhackme.com/room/bufferoverfl
 **Bad Chars:--> \x00\x04\x3e\x3f\xe1**
 
 
+
+# OVERFLOW 10
+
+**Bad Chars:--> \x00\xa0\xad\xbe\xde\xef**
+
+
 # NOTE
 
   *The badChars scripts present in each overflow directory contains a badChars variable from which also badchars specific to the overflow have been eliminated* 
