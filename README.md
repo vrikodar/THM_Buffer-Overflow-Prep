@@ -53,6 +53,11 @@ Buffer overflow Room can be Found at:--> https://tryhackme.com/room/bufferoverfl
      → Our Fuzz script crashed the script at 1300 bytes but we see that the EIP register is still not reached or in other words still not Filled with  all A's which it ideally should be so we increase the buffer from 1300 to 1400 and this time it does fill EIP with 41414141 which is when we are good to Go :)
 
 
+# OVERFLOW 8
+
+**Bad Chars:--> \x00\x1d\x2e\xc7\xee**
+
+
 # NOTE
 
   *The badChars scripts present in each overflow directory contains a badChars variable from which also badchars specific to the overflow have been eliminated* 
