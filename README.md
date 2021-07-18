@@ -44,6 +44,11 @@ Buffer overflow Room can be Found at:--> https://tryhackme.com/room/bufferoverfl
 
 **Bad Chars:--> \x00\x08\x2c\xad**
 
+# OVERFLOW 7
+
+**Bad Chars:--> \x00\x8c\xae\xbe\xfb**
+
+
 
 # NOTE
 
