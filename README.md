@@ -30,7 +30,7 @@ Buffer overflow Room can be Found at:--> https://tryhackme.com/room/bufferoverfl
 
 # OVERFLOW 3
 
-**Bad Chars:--> \x00\x11\x40\x5f\xb8\xee**
+**Bad Chars:--> \x00\x11\x40\x5f\xb8\xee\xef**
 
 # OVERFLOW 4
 
